@@ -1,3 +1,7 @@
+
+
+![d7cc216c7723171ff9573520c23da9a](https://github.com/user-attachments/assets/99cc7fd1-ac1b-43f7-84f5-56181edb5713)
+
 # 新春春联生成器 Spring Festival Couplets Generator 🏮
 
 ## 春联文化简介 Introduction to Chinese Spring Festival Couplets 📖
@@ -17,19 +21,16 @@ Spring Festival couplets (Chunlian) are one of the most distinctive forms of lit
 
 ## 项目介绍 Project Introduction 🚀
 
-![d7cc216c7723171ff9573520c23da9a](https://github.com/user-attachments/assets/99cc7fd1-ac1b-43f7-84f5-56181edb5713)
+这是一个基于 Python 和大语言模型(Deepseek)开发的智能春联生成器。通过接入先进的 AI 模型，能够自动生成传统新年春联，并提供优雅的图形界面展示。
 
-
-这是一个基于 Python 和 Deepseek API 开发的春联生成器，能够自动生成传统新年春联，并提供优雅的图形界面展示。
-
-This is a Spring Festival couplets generator developed with Python and Deepseek API, capable of automatically generating traditional Chinese New Year couplets with an elegant graphical interface.
+This is an intelligent Spring Festival couplets generator developed with Python and Large Language Model (LLM), capable of automatically generating traditional Chinese New Year couplets with an elegant graphical interface.
 
 ### 主要特点 Key Features ✨
 
+- 🤖 采用先进大语言模型，生成高质量春联 / Advanced LLM for high-quality couplet generation
+- 🎯 智能理解用户意图，生成符合主题的对联 / Smart understanding of user intent
+- 📝 AI 自动解析对联含义和文化内涵 / AI-powered interpretation of cultural meanings
 - 🎨 优雅的中国风界面设计 / Elegant Chinese-style interface design
-- 🤖 智能生成对仗工整的春联 / AI-powered generation of well-matched couplets
-- 📝 自动提供春联含义解释 / Automatic explanation of couplets' meanings
-- 🎯 支持多种主题和风格 / Support for various themes and styles
 - 💫 圆角设计和动态效果 / Rounded corners and dynamic effects
 
 ### 主题与风格 Themes and Styles 🌈
@@ -64,6 +65,20 @@ Various writing styles available for different occasions:
 - 🏺 古朴典雅 / Classical and Elegant
 - ✨ 灵动飘逸 / Flowing and Dynamic
 
+### 智能生成特性 AI Generation Features 🤖
+
+1. 🧠 深度语义理解
+   - 智能分析用户需求 / Intelligent analysis of user requirements
+   - 准确把握主题内涵 / Accurate grasp of thematic content
+
+2. 📚 文化知识融合
+   - 融入传统文化元素 / Integration of traditional cultural elements
+   - 自动匹配节庆特色 / Automatic matching of festival characteristics
+
+3. 🎯 个性化定制
+   - 根据用户偏好调整风格 / Style adjustment based on user preferences
+   - 支持多样化主题定制 / Support for diverse theme customization
+
 ### 生成策略 Generation Strategies 🔄
 
 系统采用多样化的生成策略，确保每副春联的独特性：
@@ -84,8 +99,8 @@ The system uses diverse generation strategies to ensure the uniqueness of each c
 ### 技术栈 Tech Stack 🛠️
 
 - Python 3.x
+- 大语言模型 / Large Language Model (LLM)
 - Tkinter (GUI)
-- Deepseek API (AI Model)
 - Custom Widgets (RoundedButton, RoundedFrame)
 
 ### 安装步骤 Installation Steps 📥
@@ -108,13 +123,13 @@ python spring_couplets.py
 
 ### 使用说明 Usage Guide 📖
 
-1. 首次使用需要配置 Deepseek API 密钥 / Configure Deepseek API key for first use
+1. 首次使用需要配置 API 密钥 / Configure API key for first use
 2. 点击"生成新春联"按钮生成春联 / Click "Generate" button to create couplets
 3. 生成的春联会自动显示并包含解释 / Generated couplets will be displayed with explanations
 
 ### 注意事项 Notes ⚠️
 
-- 需要有效的 Deepseek API 密钥 / Valid Deepseek API key required
+- 需要有效的 API 密钥 / Valid API key required
 - 确保网络连接正常 / Ensure internet connectivity
 - 推荐使用支持中文显示的系统字体 / Recommended to use system fonts supporting Chinese characters
 
